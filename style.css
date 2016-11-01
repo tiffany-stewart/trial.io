@@ -1,0 +1,137 @@
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+
+  /*margin-left: 150px;*/
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 130px;
+  width: 60px;
+}
+
+nav li {
+  float: left;
+  padding-top: 40px;
+  margin-left: 0;
+}
+
+nav li a {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a89806;
+  /*padding: 40px;*/
+  font-weight: 300;
+  opacity: .6;
+}
+
+nav a:hover {
+  opacity: 1;
+  transition: .3s
+  color: #baa807;
+}
+
+nav a > span {
+  color: #a89806;
+}
+
+/* TITLE SECTION */
+
+#titleContainer {
+  height: 450px;
+}
+
+.title {
+  background-image: url(images/bwskyline.jpg);
+  position: absolute;
+  width: 100%;
+  height: 575px;
+  max-width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  background-size: cover;
+  z-index: -1;
+  margin: 0;
+  top: 0;
+}
+
+.title h1 {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 225px;
+  color: #fff;
+  font-weight: 100;
+  margin: 0;
+}
+
+.title i {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+  float: right;
+  margin-right: 50px;
+  margin-top: -65px;
+}
+
+.rotateOut {
+  animation: mymove 5s infinite;
+  -webkit-animation-duration: 7000ms !important;
+  animation-duration: 3000ms !important;
+}
+
+/* ABOUT SECTION */
+
+#aboutContainer {
+  height: 250px;
+}
+
+.aboutMe {
+  float: left;
+  width: 40%;
+  padding-left: 40px;
+}
+
+.aboutMe h1 {
+  font-weight: 100;
+  font-size: 27px;
+}
+
+.aboutMe p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.boxRight {
+  background-color: #fff;
+  float: right;
+  height: 180px;
+  width: 40%;
+}
+
+.boxRight p.purple {
+  color: #a89806;
+  padding-left: 150px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.boxRight p.white {
+  color: #fff;
+  font-weight: 100;
+  padding-left: 20px;
+  padding-right: 20px;
+}
